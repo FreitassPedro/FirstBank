@@ -6,7 +6,7 @@ Caso você encontre alguma forma de melhorar, aceito qualquer sugestão :D
 Programa consiste basicamente em fundamentos:
 - Estruturas repetitivas: While, for, if
 - Construtores
--Getters, Setters, Add, Remove
+- Getters, Setters, Add, Remove
 
 
 Para testa-lo é bem simples, basta digitar o ID do usúario e a senha respectivamente. Ambos são encontrados na iniciação do constutor.
