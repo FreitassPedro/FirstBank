@@ -70,12 +70,13 @@ public class Main {
              }
 
         }
+             else if (resposta == 9) {
+            break;
+             }
          else if (resposta >= 4) {
              System.out.println("Não entendi, tente outra vez:");
          }
-         else if (resposta == 9) {
-            break;
-        }
+         
         else {
         }
             System.out.println("Para continuar, tecle: ");
