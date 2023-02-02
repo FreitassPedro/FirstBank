@@ -1,6 +1,5 @@
 package application;
 import resources.Conta;
-
 import java.util.Scanner;
 
 public class Main {
@@ -41,7 +40,6 @@ public class Main {
         System.out.println("2 -  Depositar");
         System.out.println("3-   Sacar");
         System.out.println("9 -  Encerrar sessão");
-        byte sair = 9;
         byte resposta = sc.nextByte();
 
         //REPETIÇÃO DA INTERFACE
@@ -51,7 +49,6 @@ public class Main {
             System.out.println("Saldo: R$" + conta.getSaldo());
              System.out.println();
         }
-
         else if (resposta == 2) {
             System.out.println("Informe o valor a ser depositado");
             conta.addSaldo(sc.nextInt());
@@ -68,7 +65,6 @@ public class Main {
                  System.out.println("Saldo atualizado! ");
                  System.out.println();
              }
-
         }
              else if (resposta == 9) {
             break;
